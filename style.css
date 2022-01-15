@@ -51,18 +51,21 @@ p{
     margin-top: 30px;
     margin-bottom: 80px;
 }
-
 .first{
     padding-left: 20px;
     padding-right: 100px;
 }
-.second{
+.photo-frame{
     padding-left: 100px;
     padding-right: 100px;
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+.photo-frame:hover{
+    transform: scale(1.3); skew(-30dg);
+    transition: transform 2s ease-in-out;
 }
 .logos{
     display: inline-flex;
@@ -115,5 +118,13 @@ footer h5{
 .footer-logo{
     color: white;
 }
+/***Media Queries ***/
+/* Mobile Devices */
+@media only screen and (Max-width:688px)
+{
+    
+}
+
+
     
 
