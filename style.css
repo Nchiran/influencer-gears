@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     font-family: 'montserrat', sans-serif;
 }
 header{
     height: 100px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 nav{
     padding-left: 10px;
@@ -27,6 +22,7 @@ nav{
 }
 .navigation li a{
     text-decoration: none;
+    font-weight: bold;
 }
 .one{
     display: flex;
@@ -49,7 +45,13 @@ p{
     text-decoration: none;
     border-radius: 20px;
     color: white;
-    }
+}
+.button-2{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
 .first{
     padding-left: 20px;
     padding-right: 100px;
@@ -62,16 +64,56 @@ p{
     background-size: contain;
     background-position: center;
 }
-.cards{
+.logos{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+.items{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    padding-left: 20px;
+    text-align: left;
+    padding-left: 30px;
 }
 .three h1{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.four{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+}
+.feature{
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.feature p{
+    text-align: left;
+    justify-content: left;
+}
+footer{
+    margin-top: 50px;
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    text-decoration-color: white;
+}
+footer h2{
+    color: white;
+}
+footer h4{
+    color: white;
+}
+footer h5{
+    color: white;
+}
+.footer-logo{
+    color: white;
 }
     
 
